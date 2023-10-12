@@ -10,13 +10,13 @@ env:
   PNPM_VERSION: 8.5.1
   PYTHON_VERSION: 3.10.13
   NODE_VERSION: 18
-  AZURE_RESOURCE_GROUP_NAME: "azure-ml-yolo"
-  AZURE_SUBSCRIPTION_ID: "9d42c9d4-85ab-429d-afb4-4d77f309078c"
+  AZURE_RESOURCE_GROUP_NAME: "azure-ml-tomlass"
+  AZURE_SUBSCRIPTION_ID: "79159f23-039d-49a7-b071-eeef07d1c4c"
   AZURE_LOCATION: "northeurope"
-  AZURE_ML_WORKSPACE_NAME: "cats-dogs-yolo"
-  AZURE_WEBAPP_NAME: "cats-dogs-yolo"
+  AZURE_ML_WORKSPACE_NAME: "cats-dogs-tomlass"
+  AZURE_WEBAPP_NAME: "cats-dogs-tomlass"
   DELETE_WEBAPP: "false"
-  DOCKER_IMAGE_NAME: "guillaumechervet/mlopspython"
+  DOCKER_IMAGE_NAME: "tomlass/mlopspython"
 
 permissions:
   contents: write
